@@ -9,7 +9,7 @@ public class Problem3 {
         while(true) {
             System.out.print("Do you want to divide two numbers? (y/n): ");
             String s = in.next();
-            if(s.equals("n")) break;
+            if(s.equalsIgnoreCase("n")) break;
             double n=0, m=0;
             try {
                 System.out.print("Please enter num1: ");
