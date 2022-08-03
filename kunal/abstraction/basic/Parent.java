@@ -1,4 +1,4 @@
-package oop.kunal.abstraction;
+package oop.kunal.abstraction.basic;
 
 public abstract class Parent {
 

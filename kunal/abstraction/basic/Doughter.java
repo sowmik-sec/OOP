@@ -1,10 +1,10 @@
-package oop.kunal.abstraction;
+package oop.kunal.abstraction.basic;
 
-public class Son extends Parent{
+public class Doughter extends Parent {
 
     @Override
     void carrer() {
-        System.out.println("I am going to be a coder");
+        System.out.println("I am going to be a doctor");
     }
 
     @Override
