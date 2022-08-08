@@ -1,5 +1,7 @@
 package oop.kunal.generics;
 
+import java.util.ArrayList;
+
 public class CustomArrayList {
     private int[] data;
     private static int DEFAULT_SIZE = 10;
@@ -45,5 +47,15 @@ public class CustomArrayList {
         data[index] = val;
     }
 
-
+    public String toString() {
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i = 0; i < size; i++) {
+            list.add(data[i]);
+        }
+        String ans = new String();
+        for (int i = 0; i < size; i++) {
+            ans = ans + " " + list.get(i);
+        }
+        return ans;
+    }
 }
